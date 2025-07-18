@@ -1,0 +1,19 @@
+# @package _global_
+
+defaults:
+  - downstream/gedi/base.yaml
+
+data:
+  regions:
+    - Europe
+  split_type: random
+  patch_size: 128
+
+model:
+  decoder: "fcn"
+  backbone: "spec_resnet50"
+  pretrained_weights: pre-trained_weights/spec_rn50/moco.pth  # pre-trained_weights/resnet50/moco.pth, null
+  freeze_backbone: true      # Default for linear protocol
+  finetune_adapter: false    # Default for linear protocol
+
+protocol: linear

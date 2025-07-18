@@ -1,0 +1,5 @@
+from_enmap_archive: True
+enmap_tiles_path: '/<DATA_DIR>/enmap'
+gedi_tiles_path: '/<DATA_DIR>/gedi_x_enmap_tiles'
+output_path: '/<DATA_DIR>/enmap_gedi_patchified'
+csv_path: '/<DATA_DIR>/patches_metadata.csv'

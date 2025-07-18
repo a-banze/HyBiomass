@@ -1,0 +1,34 @@
+# @package _global_
+
+defaults:
+  - override /data: enmap_gedi.yaml
+  - override /model: regression.yaml
+  - override /callbacks: default.yaml
+  - override /trainer: gpu.yaml
+  - override /logger: many_loggers.yaml
+
+protocol: null
+
+seed: 12345
+
+data:
+  dataset_path: /path/to/hybiomass/dataset/folder
+  batch_size: 32
+
+model:
+  num_classes: 1
+
+trainer:
+  max_epochs: 100
+
+weight_init: random
+
+tags: [ "downstream", "enmap", "gedi", "regression"]
+
+task_path: downstream/gedi_test
+task_name: ${task_path}/${model.backbone}/${protocol}
+
+#logger:
+#  wandb:
+#    group: ${task_name}
+#    project: "downstream_gedi"

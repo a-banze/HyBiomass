@@ -1,0 +1,4 @@
+enmap_dir: /<DATA_DIR>/enmap
+input_filename: enmap_coordinates_and_timestamps.csv
+output_dir: /<DATA_DIR>/enmap
+output_filename: enmap_coordinates_and_timestamps_reprojected.csv

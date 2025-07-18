@@ -1,0 +1,5 @@
+products: [treecover2000, lossyear, datamask]
+hansen_dir: /<DATA_DIR>/hansen_GFCv1_11
+l2l4a_dir: /<DATA_DIR>/GEDIlv002_L2L4a
+output_dir: /<DATA_DIR>/GEDIl2l4a_hansen_appended
+num_workers: 6

@@ -1,0 +1,90 @@
+[build-system]
+requires = ["setuptools>=62.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hybiomass"
+version = "0.0.0"
+readme = "README.md"
+description = "Python package for the HyBiomass project"
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent"
+]
+requires-python = ">=3.11"
+dependencies = [
+    "cartopy",
+    "contextily",
+    "dask[complete]",
+    "geojson",
+    "geopandas",
+    "hydra-core",
+    "hydra-colorlog",
+    "hydra-optuna-sweeper",
+    "ipython",
+    "ipywidgets>=7.6",
+    "joblib",
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab_sublime",
+    "jupyter_contrib_nbextensions",
+    "lightning",
+    "markdown",
+    "matplotlib",
+    "matplotlib-inline",
+    "notebook",
+    "numpy==1.26.4",
+    "pandas",
+    "pandarallel",
+    "plotly",
+    "PyYAML",
+    "pyrootutils",
+    "pystac",
+    "pystac_client",
+    "pytest",
+    "requests",
+    "retry",
+    "rich",
+    "rioxarray",
+    "rtree",
+    "ruamel.yaml",
+    "scikit-learn",
+    "scipy",
+    "seaborn",
+    "Shapely",
+    "stackstac",
+    "tabulate",
+    "tensorboard",
+    "termcolor",
+    "tqdm",
+    "torch==2.0.0",
+    "torchgeo==0.5",
+    "torchmetrics",
+    "torchvision",
+    "wandb",
+    "xarray",
+    "xformers",
+    "zarr",
+]
+
+[[project.authors]]
+name = "Timothee Stassin"
+email = "stassin@gfz-potsdam.de"
+
+[[project.authors]]
+name = "Aaron Banze"
+email = "aaron.banze@dlr.de"
+
+[[project.authors]]
+name = "Simon Besnard"
+email = "besnard@gfz-potsdam.de"
+
+[[project.authors]]
+name = "Ridvan Salih Kuzu"
+email = "ridvan.kuzu@dlr.de"
+
+[tool.setuptools]
+include-package-data = true
+packages = [
+    "hybiomass",
+]

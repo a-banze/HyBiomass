@@ -1,9 +1,7 @@
-# Log directories
-scripts/slurm_scripts/logs/
-
 # Data directories
 raw_data/
 logs/
+pre-trained_weights/
 
 # Zarr stuff
 *.zarrsync

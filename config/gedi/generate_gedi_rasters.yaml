@@ -1,0 +1,5 @@
+from_enmap_archive: True
+enmap_dir: /<DATA_DIR>/enmap
+gedi_extracted_csvs_dir: /<DATA_DIR>/gedi_extracted_per_tile_csvs
+gedi_tiles_output_dir: /<DATA_DIR>/gedi_x_enmap_tiles
+num_workers: 6

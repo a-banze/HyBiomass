@@ -1,0 +1,12 @@
+_target_: hybiomass.models.pixelwise_regression_module.PixelwiseRegressionModule
+decoder: null
+backbone: null
+pretrained_weights: null
+in_channels: ${data.num_bands}
+num_classes: 1
+loss_name: mse
+learning_rate: 0.0003
+weight_decay: 1e-4
+eta_min: 0
+t_max: 100
+freeze_backbone: True

@@ -1,0 +1,6 @@
+enmap_dir: /<DATA_DIR>/enmap
+l2l4a_dir : /<DATA_DIR>/GEDIl2l4a_hansen_appended
+output_dir: /<DATA_DIR>/gedi_extracted_per_tile_csvs
+region: GLOBAL
+gedi: True
+num_workers: 6

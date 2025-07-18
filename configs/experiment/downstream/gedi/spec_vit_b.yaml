@@ -1,0 +1,26 @@
+# @package _global_
+
+defaults:
+  - downstream/gedi/base.yaml
+
+data:
+  regions:
+    - Europe
+  split_type: random
+  patch_size: 128
+
+model:
+  decoder: "upernet"
+  backbone: "spec_vit_base"
+  upscale_method: "bilinear_interpolation"
+  pyramid_output: false
+  output_dim: 768
+  output_layers: # zero-based numbering
+    - 3
+    - 5
+    - 7
+    - 11
+  token_patch_size: 4
+  pretrained_weights: pre-trained_weights/spec_vit_b/mae.pth
+  freeze_backbone: true      # Default for linear protocol
+  finetune_adapter: false    # Default for linear protocol

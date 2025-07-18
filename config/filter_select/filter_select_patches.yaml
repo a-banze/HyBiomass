@@ -1,0 +1,3 @@
+patches_csv: '/<DATA_DIR>/patches_metadata.csv'
+num_workers: 6
+output_path: '/<DATA_DIR>/processed_dataset/'

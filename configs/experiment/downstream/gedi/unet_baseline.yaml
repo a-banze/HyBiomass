@@ -1,0 +1,14 @@
+# @package _global_
+
+defaults:
+  - downstream/gedi/base.yaml
+
+data:
+  regions:
+    - Europe
+  split_type: random
+  patch_size: 128
+
+model:
+  backbone: "unet"
+  decoder: "unet"
