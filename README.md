@@ -1,9 +1,9 @@
 # HyBiomass 🌳
 
-[[`Paper on arXiv`](https://arxiv.org/abs/2506.11314)]
+[[`Paper published in IEEE GRSL`](https://ieeexplore.ieee.org/document/11164504)]
 [[`BibTeX`](#citation)]
 
-This repository contains the code associated with the paper: [HyBiomass: Global Hyperspectral Imagery Benchmark Dataset for Evaluating Geospatial Foundation Models in Forest Aboveground Biomass Estimation](https://arxiv.org/abs/2506.11314).
+This repository contains the code associated with the paper: [HyBiomass: Global Hyperspectral Imagery Benchmark Dataset for Evaluating Geospatial Foundation Models in Forest Aboveground Biomass Estimation](https://ieeexplore.ieee.org/document/11164504).
 
 > **Note:** The codebase is based on [ashleve/lightning-hydra-template](https://github.com/ashleve/lightning-hydra-template) for the experiments part.
 
@@ -211,7 +211,12 @@ If you use this code or the HyBiomass dataset in your research, please cite our 
 @article{banze2025hybiomass,
   title={HyBiomass: Global Hyperspectral Imagery Benchmark Dataset for Evaluating Geospatial Foundation Models in Forest Aboveground Biomass Estimation},
   author={Banze, Aaron and Stassin, Timoth{\'e}e and Braham, Nassim Ait Ali and Kuzu, R{\i}dvan Salih and Besnard, Simon and Schmitt, Michael},
-  journal={arXiv preprint arXiv:2506.11314},
-  year={2025}
+  journal={IEEE Geoscience and Remote Sensing Letters},
+  year={2025},
+  volume={22},
+  number={},
+  pages={1-5},
+  keywords={Forestry;Benchmark testing;Biomass;Satellites;Estimation;Biological system modeling;Hyperspectral imaging;Vegetation mapping;Laser radar;Geospatial analysis;Aboveground biomass (AGB);Environmental Mapping and Analysis Program (EnMAP);geospatial foundation models (Geo-FMs);global ecosystem dynamics investigation (GEDI);hyperspectral imagery (HSI);remote sensing},
+  doi={10.1109/LGRS.2025.3610178}
 }
 ```
