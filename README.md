@@ -28,7 +28,8 @@ This repository contains the source code to create the dataset, aswell as the co
 
 ## Data Access
 
-The dataset will soon be made available through the DLR GeoService Portal, for which an account has to be created.
+The dataset is available through the DLR GeoService Portal, for which an account has to be created:
+https://geoservice.dlr.de/web/datasets/enmap_hybiomass
 
 
 ## Installation
